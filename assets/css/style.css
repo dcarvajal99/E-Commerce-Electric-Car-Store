@@ -230,7 +230,12 @@ text-decoration: none;
         grid-template-rows: 10% 75% 5% 10%;
         min-height: 100vh;
     }
-
+    .flex-side-bar {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10% ;
+    }
     .filtro{
         display:flex;
         flex-direction:column;
